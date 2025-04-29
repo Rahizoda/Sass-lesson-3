@@ -1,0 +1,299 @@
+* {
+  margin: 0px;
+}
+* a:hover {
+  background-color: #010a20 !important;
+  color: white !important;
+  transform: scale(1.2);
+  transition: 1.2s;
+}
+* button:hover {
+  background-color: #010a20 !important;
+  color: white !important;
+  transform: scale(1.2);
+  transition: 1.2s;
+}
+
+.contener {
+  background-image: url("/imgs/diego-gutierrez-NRn5rrBnH8w-unsplash 1.png");
+  width: 100%;
+  color: white;
+}
+.contener div {
+  display: flex;
+  align-items: center;
+}
+.contener div a {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+}
+.contener div div {
+  margin-left: 550px;
+}
+.contener div div i {
+  margin-left: 20px;
+}
+.contener h1 {
+  font-size: 50px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.contener button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: rgb(126, 42, 70);
+  color: white;
+  border: none;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.contener .contener1 {
+  width: 50%;
+  background-color: rgba(3, 3, 3, 0.658);
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px 30px;
+  margin-top: 180px;
+}
+.contener .contener1 div {
+  flex-direction: column;
+  margin-left: 0px;
+}
+.contener .contener1 div h4 {
+  color: red;
+}
+.contener .contener1 div h2 {
+  margin: 20px 0px;
+}
+.contener img {
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  top: 490px;
+  left: 1043px;
+}
+
+.contener2 {
+  padding: 100px;
+  background-color: rgb(9, 13, 49);
+  color: white;
+  display: flex;
+}
+.contener2 img {
+  width: 50%;
+  height: 400px;
+}
+.contener2 div {
+  width: 50%;
+  justify-content: center;
+  padding: 100px;
+  padding-left: 200px;
+}
+.contener2 div p {
+  margin: 20px 0px;
+}
+.contener2 div button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: rgb(126, 42, 70);
+  color: white;
+  border: none;
+}
+
+.contener3 {
+  padding: 100px;
+  background-color: rgb(9, 13, 49);
+  color: white;
+  display: flex;
+}
+.contener3 img {
+  width: 50%;
+  height: 400px;
+}
+.contener3 div {
+  width: 50%;
+  justify-content: center;
+  padding: 60px;
+}
+.contener3 div p {
+  margin: 20px 0px;
+}
+.contener3 div button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: rgb(126, 42, 70);
+  color: white;
+  border: none;
+}
+
+.contener4 {
+  background-image: url("/imgs/ifan-bima-B04Xpnu5JQ4-unsplash 1.png");
+  width: 100%;
+  text-align: center;
+}
+.contener4 h1 {
+  padding: 50px 0px;
+  padding-top: 100px;
+}
+.contener4 div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+.contener4 div img {
+  width: 250px;
+  height: 200px;
+}
+.contener4 div i {
+  font-size: 30px;
+}
+.contener4 .box {
+  width: 100%;
+  background-color: rgba(2, 12, 33, 0.9058823529);
+  flex-direction: column;
+  align-content: end;
+  margin-top: 900px;
+  color: white;
+  padding-bottom: 100px;
+}
+.contener4 .box div {
+  display: flex;
+}
+.contener4 .box div div {
+  flex-direction: column;
+}
+.contener4 .box div div h2 {
+  color: red;
+  margin: 30px 0px;
+}
+
+.boxtxt {
+  width: 100%;
+  text-align: center;
+  padding: 200px 0px;
+}
+.boxtxt p {
+  margin: 30px 0px;
+}
+.boxtxt button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: rgb(126, 42, 70);
+  color: white;
+  border: none;
+}
+
+.boximg {
+  background-image: url("/imgs/hugo-matilla-EFuCATqfblI-unsplash 1.png");
+  width: 100%;
+  text-align: center;
+  padding: 50px 0px;
+}
+.boximg h1 {
+  margin: 50px 0px;
+}
+.boximg .b2 {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 130px;
+}
+.boximg .b2 .b1 {
+  flex-direction: column;
+  text-align: start;
+}
+.boximg .b2 .b1 p {
+  margin-top: 20px;
+}
+
+.contenerimg {
+  text-align: center;
+  padding: 100px 0px;
+}
+.contenerimg p {
+  margin: 30px;
+}
+.contenerimg .imgs {
+  display: flex;
+  justify-content: center;
+}
+.contenerimg .imgs div {
+  width: 330px;
+  gap: 20px;
+}
+.contenerimg .imgs div img {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.contenertxt {
+  text-align: center;
+  padding: 100px 0px;
+  background-color: aqua;
+}
+.contenertxt .box1txt {
+  margin-left: 200px;
+}
+.contenertxt .box1txt div {
+  text-align: start;
+  display: flex;
+  margin: 30px 0px;
+  gap: 5%;
+}
+.contenertxt .box1txt div p {
+  height: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(97, 42, 51);
+  color: white;
+}
+.contenertxt .box1txt div div {
+  flex-direction: column;
+  align-content: space-between;
+}
+.contenertxt .box1txt div div h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.contenertxt .box1txt div div button {
+  padding: 20px 40px;
+  border-radius: 30px;
+  background-color: rgb(126, 42, 70);
+  color: white;
+  border: none;
+  width: 200px;
+  margin-top: 20px;
+}
+.contenertxt .box1txt div div p {
+  border: none;
+  background-color: aqua;
+  color: black;
+}
+
+.buttonbox {
+  background-color: #010a20;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  justify-content: space-between;
+}
+.buttonbox a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+.buttonbox img {
+  margin-right: 100px;
+}
+.buttonbox i {
+  margin-left: 20px;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
